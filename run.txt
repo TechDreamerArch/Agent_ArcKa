@@ -1,0 +1,17 @@
+cd C:/z_Work/new@ark/Agent_ArcKa/ChatBot_BE
+python
+
+
+
+from document_qa.qa_engine import ask_documents
+print(ask_documents("What is our leave policy for sick days?"))
+
+
+
+
+cd C:/z_Work/new@ark/Agent_ArcKa/ChatBot_FE
+npm start
+
+
+cd C:/z_Work/new@ark/Agent_ArcKa/ChatBot_BE
+uvicorn app:app --host 0.0.0.0 --port 8000

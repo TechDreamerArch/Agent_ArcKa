@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+pyodbc
+fastapi
+uvicorn
+requests
+pydantic
+msal>=1.20.0

@@ -1,0 +1,41 @@
+# === Global ===
+*.log
+*.DS_Store
+*.env
+.env.*
+
+# === Python (Backend: ChatBot_BE) ===
+ChatBot_BE/__pycache__/
+ChatBot_BE/*.py[cod]
+ChatBot_BE/venv/
+ChatBot_BE/env/
+ChatBot_BE/.Python
+ChatBot_BE/*.sqlite3
+
+# If you're using virtualenvwrapper or pipenv
+*.venv
+pip-log.txt
+
+# === Node (Frontend: ChatBot_FE - Angular) ===
+ChatBot_FE/node_modules/
+ChatBot_FE/dist/
+ChatBot_FE/.angular/cache/
+ChatBot_FE/.angular/config.json
+ChatBot_FE/.env
+ChatBot_FE/.env.*
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+
+# === OS-specific files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === npm related ===
+package-lock.json
+
+# === Others ===
+*.bak
+*.swp
